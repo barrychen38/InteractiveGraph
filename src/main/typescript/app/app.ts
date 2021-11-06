@@ -55,8 +55,8 @@ export abstract class BaseApp extends MainFrame {
 
     protected abstract onCreateFrame(args: EVENT_ARGS_FRAME);
 
-    public loadGson(url: string, eventHandlers: object, callback) {
-        super.connectService(LocalGraph.fromGsonFile(url, eventHandlers), callback);
+    public loadGson(gsonString: string, callback) {
+        super.connectService(LocalGraph.fromGsonString(gsonString), callback);
     }
 
     public connect(url: string, callback) {

@@ -108,6 +108,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#fit" class="tsd-kind-icon">fit</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#focus" class="tsd-kind-icon">focus</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#getbaseedge" class="tsd-kind-icon">get<wbr>Base<wbr>Edge</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#getbaseedges" class="tsd-kind-icon">get<wbr>Base<wbr>Edges</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#getboundingbox" class="tsd-kind-icon">get<wbr>Bounding<wbr>Box</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#getclusterededges" class="tsd-kind-icon">get<wbr>Clustered<wbr>Edges</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="graphnetwork.html#getconnectededges" class="tsd-kind-icon">get<wbr>Connected<wbr>Edges</a></li>
@@ -163,31 +164,16 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.__constructor</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1026</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1044</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Creates an instance of Network.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>container: <span class="tsd-signature-type">HTMLElement</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>the HTML element representing the network container</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5>data: <span class="tsd-signature-type">Data</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>network data</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">Options</span></h5>
@@ -211,23 +197,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.DOMtoCanvas</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1107</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1125</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>This function converts DOM coordinates to coordinates on the canvas.
-										Input and output are in the form of {x:Number,y:Number} (IPosition interface).
-									The DOM values are relative to the network container.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>position: <span class="tsd-signature-type">Position</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the DOM coordinates</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Position</span></h4>
@@ -246,15 +222,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.addEdgeMode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1273</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1301</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Go into addEdge mode.
-									The explaination from addNodeMode applies here as well.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -270,17 +240,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.addNodeMode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1261</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1289</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<pre><code>Go into addNode <span class="hljs-keyword">mode</span>. Having edit <span class="hljs-keyword">mode</span> <span class="hljs-keyword">or</span> manipulation enabled <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> required.
-</code></pre><p>To get out of this mode, call disableEditMode().
-										The callback functions defined in handlerFunctions still apply.
-									To use these methods without having the manipulation GUI, make sure you set enabled to false.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -296,23 +258,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.canvasToDOM</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1097</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1115</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>This function converts canvas coordinates to coordinates on the DOM.
-										Input and output are in the form of {x:Number, y:Number} (IPosition interface).
-									The DOM values are relative to the network container.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>position: <span class="tsd-signature-type">Position</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the canvas coordinates</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Position</span></h4>
@@ -331,14 +283,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.cluster</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1126</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1144</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>The joinCondition function is presented with all nodes.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -360,24 +307,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.clusterByConnection</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1137</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1155</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<pre><code>This <span class="hljs-function"><span class="hljs-keyword">method</span> <span class="hljs-title">looks</span> <span class="hljs-title">at</span> <span class="hljs-title">the</span> <span class="hljs-title">provided</span> <span class="hljs-title">node</span> <span class="hljs-title">and</span> <span class="hljs-title">makes</span> <span class="hljs-title">a</span> <span class="hljs-title">cluster</span> <span class="hljs-title">of</span> <span class="hljs-title">it</span> <span class="hljs-title">and</span> <span class="hljs-title">all</span> <span class="hljs-title">it</span>'<span class="hljs-title">s</span> <span class="hljs-title">connected</span> <span class="hljs-title">nodes</span>.</span>
-</code></pre><p>The behaviour can be customized by proving the options object.
-										All options of this object are explained below.
-									The joinCondition is only presented with the connected nodes.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the id of the node</p>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">ClusterOptions</span></h5>
@@ -398,19 +334,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.clusterByHubsize</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1150</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1168</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>This method checks all nodes in the network and those with a equal or higher
-										amount of edges than specified with the hubsize qualify.
-										If a hubsize is not defined, the hubsize will be determined as the average
-										value plus two standard deviations.
-										For all qualifying nodes, clusterByConnection is performed on each of them.
-									The options object is described for clusterByConnection and does the same here.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -435,14 +361,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.clusterOutliers</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1157</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1175</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>This method will cluster all nodes with 1 edge with their respective connected node.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -464,15 +385,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.deleteSelected</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1285</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1313</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Delete selected.
-									Having edit mode or manipulation enabled is not required.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -488,15 +403,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.destroy</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1039</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1057</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<pre><code><span class="hljs-builtin-name">Remove</span> the<span class="hljs-built_in"> network </span><span class="hljs-keyword">from</span> the DOM <span class="hljs-keyword">and</span> <span class="hljs-builtin-name">remove</span> all Hammer bindings <span class="hljs-keyword">and</span> references.
-</code></pre>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -512,15 +421,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.disableEditMode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1253</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1281</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Programatically disable the edit mode.
-									Similar effect to pressing the close icon (small cross in the corner of the toolbar).</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -536,15 +439,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.editEdgeMode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1279</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1307</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Go into editEdge mode.
-									The explaination from addNodeMode applies here as well.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -560,15 +457,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.editNode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1267</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1295</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Edit the selected node.
-									The explaination from addNodeMode applies here as well.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -584,15 +475,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.enableEditMode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1247</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1275</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<pre><code>Programatically <span class="hljs-builtin-name">enable</span> the <span class="hljs-builtin-name">edit</span> mode.
-</code></pre><p>Similar effect to pressing the edit button.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -608,27 +493,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.findNode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1173</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1191</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Nodes can be in clusters.
-										Clusters can also be in clusters.
-									This function returns an array of nodeIds showing where the node is.</p>
-								</div>
-								<p>Example:
-									cluster &#39;A&#39; contains cluster &#39;B&#39;, cluster &#39;B&#39; contains cluster &#39;C&#39;,
-								cluster &#39;C&#39; contains node &#39;fred&#39;.</p>
-								<p>network.clustering.findNode(&#39;fred&#39;) will return [&#39;A&#39;,&#39;B&#39;,&#39;C&#39;,&#39;fred&#39;].</p>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the node id.</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -647,14 +518,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.fit</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1451</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1479</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Zooms out so all nodes fit on the canvas.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -676,16 +542,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.focus</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1459</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1487</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>You can focus on a node with this function.
-										What that means is the view will lock onto that node, if it is moving, the view will also move accordingly.
-									If the view is dragged by the user, the focus is broken. You can supply options to customize the effect.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -710,17 +569,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getBaseEdge</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1190</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1208</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>When a clusteredEdgeId is available, this method will return the original
-										baseEdgeId provided in data.edges ie.
-										After clustering the &#39;SelectEdge&#39; event is fired but provides only the clustered edge.
-									This method can then be used to return the baseEdgeId.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -728,6 +579,30 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getbaseedges" class="tsd-anchor"></a>
+					<h3>get<wbr>Base<wbr>Edges</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Base<wbr>Edges<span class="tsd-signature-symbol">(</span>clusteredEdgeId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from Network.getBaseEdges</p>
+								<ul>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1218</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>clusteredEdgeId: <span class="tsd-signature-type">IdType</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -742,14 +617,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getBoundingBox</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1327</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1355</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns a bounding box for the node including label.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -771,22 +641,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getClusteredEdges</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1182</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1200</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Similar to findNode in that it returns all the edge ids that were
-									created from the provided edge during clustering.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>baseEdgeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the base edge id</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -805,21 +666,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getConnectedEdges</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1343</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1371</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an array of edgeIds of the edges connected to this node.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the node id</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -830,30 +683,23 @@
 					<a name="getconnectednodes" class="tsd-anchor"></a>
 					<h3>get<wbr>Connected<wbr>Nodes</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Connected<wbr>Nodes<span class="tsd-signature-symbol">(</span>nodeOrEdgeId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Connected<wbr>Nodes<span class="tsd-signature-symbol">(</span>nodeOrEdgeId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span>, direction<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">DirectionType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getConnectedNodes</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1336</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1364</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an array of nodeIds of the all the nodes that are directly connected to this node.
-										If you supply an edgeId, vis will first match the id to nodes.
-									If no match is found, it will search in the edgelist and return an array: [fromId, toId].</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeOrEdgeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>a node or edge id</p>
-									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> direction: <span class="tsd-signature-type">DirectionType</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span>
@@ -874,15 +720,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getEdgeAt</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1400</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1428</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns a edgeId or undefined.
-									The DOM positions are expected to be in pixels from the top left corner of the canvas.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -904,15 +744,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getNodeAt</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1393</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1421</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns a nodeId or undefined.
-									The DOM positions are expected to be in pixels from the top left corner of the canvas.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -934,22 +768,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getNodesInCluster</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1220</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1248</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an array of all nodeIds of the nodes that
-									would be released if you open the cluster.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>clusterNodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the id of the cluster node</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -967,15 +792,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getOptionsFromConfigurator</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1477</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1505</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If you use the configurator, you can call this method to get an options object that contains
-									all differences from the default options caused by users interacting with the configurator.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
 						</li>
 					</ul>
@@ -992,17 +811,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getPositions</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1294</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1322</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the x y positions in canvas space of the nodes with the supplied nodeIds as an object.</p>
-								</div>
-								<p>Alternative inputs are a String containing a nodeId or nothing.
-									When a String is supplied, the position of the node corresponding to the ID is returned.
-								When nothing is supplied, the positions of all nodes are returned.</p>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1020,7 +831,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getPositions</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1295</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1323</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1044,15 +855,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getScale</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1437</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1465</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the current scale of the network.
-									1.0 is comparible to 100%, 0 is zoomed out infinitely.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>the current scale of the network</p>
 						</li>
@@ -1069,16 +874,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getSeed</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1241</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1269</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If you like the layout of your network
-										and would like it to start in the same way next time,
-									ask for the seed using this method and put it in the layout.randomSeed option.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>the current seed of the network.</p>
 						</li>
@@ -1095,15 +893,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getSelectedEdges</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1386</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1414</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an array of selected edge ids like so:
-									[edgeId1, edgeId2, ..].</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
@@ -1119,15 +911,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getSelectedNodes</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1379</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1407</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an array of selected node ids like so:
-									[nodeId1, nodeId2, ..].</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IdType</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
@@ -1143,14 +929,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getSelection</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1372</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1400</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns an object with selected nodes and edges ids.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
 							<ul class="tsd-parameters">
 								<li class="tsd-parameter">
@@ -1174,14 +955,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.getViewPosition</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1444</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1472</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the current central focus point of the view in the form: { x: {Number}, y: {Number} }</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Position</span></h4>
 							<p>the view position;</p>
 						</li>
@@ -1198,21 +974,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.isCluster</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1212</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1240</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns true if the node whose ID has been supplied is a cluster.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the node id.</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -1230,34 +998,19 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.moveNode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1321</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1349</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>You can use this to programatically move a node.
-									The supplied x and y positions have to be in canvas space!</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the node that will be moved</p>
-									</div>
 								</li>
 								<li>
 									<h5>x: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>new canvas space x position</p>
-									</div>
 								</li>
 								<li>
 									<h5>y: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>new canvas space y position</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1275,14 +1028,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.moveTo</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1465</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1493</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>You can animate or move the camera using the moveTo method.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1304,23 +1052,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.off</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1077</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1095</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Remove an event listener.
-										The function you supply has to be the exact same as the one you used in the on function.
-									If no function is supplied, all listeners will be removed.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>eventName: <span class="tsd-signature-type">NetworkEvents</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the name of the event, f.e. &#39;click&#39;</p>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> callback: <span class="tsd-signature-type">function</span></h5>
@@ -1359,28 +1097,16 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.on</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1067</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1085</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Set an event listener.
-									Depending on the type of event you get different parameters for the callback function.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>eventName: <span class="tsd-signature-type">NetworkEvents</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the name of the event, f.e. &#39;click&#39;</p>
-									</div>
 								</li>
 								<li>
 									<h5>callback: <span class="tsd-signature-type">function</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the callback function that will be raised</p>
-									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-siganture">
 											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
@@ -1416,29 +1142,16 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.once</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1087</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1105</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Set an event listener only once.
-										After it has taken place, the event listener will be removed.
-									Depending on the type of event you get different parameters for the callback function.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>eventName: <span class="tsd-signature-type">NetworkEvents</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the name of the event, f.e. &#39;click&#39;</p>
-									</div>
 								</li>
 								<li>
 									<h5>callback: <span class="tsd-signature-type">function</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the callback function that will be raised once</p>
-									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-siganture">
 											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
@@ -1474,25 +1187,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.openCluster</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1232</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1260</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Opens the cluster, releases the contained nodes and edges,
-										removing the cluster node and cluster edges.
-										The options object is optional and currently supports one option,
-										releaseFunction, which is a function that can be used to manually
-									position the nodes after the cluster is opened.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>nodeId: <span class="tsd-signature-type">IdType</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>the node id</p>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">OpenClusterOptions</span></h5>
@@ -1513,14 +1214,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.redraw</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1112</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1130</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Redraw the network.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1536,14 +1232,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.releaseNode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1470</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1498</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Programatically release the focussed node.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1559,16 +1250,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.selectEdges</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1416</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1444</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Selects the edges corresponding to the id&#39;s in the input array.
-										This method unselects all other objects before selecting its own objects.
-									Does not fire events.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1590,16 +1274,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.selectNodes</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1408</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1436</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Selects the nodes corresponding to the id&#39;s in the input array.
-										If highlightEdges is true or undefined, the neighbouring edges will also be selected.
-									This method unselects all other objects before selecting its own objects. Does not fire events.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1624,24 +1301,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.setData</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1049</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1067</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Override all the data in the network.
-										If stabilization is enabled in the physics module,
-										the network will stabilize again.
-									This method is also performed when first initializing the network.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>data: <span class="tsd-signature-type">Data</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>network data</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1659,23 +1325,13 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.setOptions</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1058</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1076</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Set the options.
-										All available options can be found in the modules above.
-									Each module requires it&#39;s own container with the module name to contain its options.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>options: <span class="tsd-signature-type">Options</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>network options</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1693,15 +1349,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.setSelection</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1423</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1451</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Sets the selection.
-									You can also pass only nodes or edges in selection object.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1734,28 +1384,16 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.setSize</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1121</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1139</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Set the size of the canvas.
-									This is automatically done on a window resize.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>width: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>width in a common format, f.e. &#39;100px&#39;</p>
-									</div>
 								</li>
 								<li>
 									<h5>height: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>height in a common format, f.e. &#39;100px&#39;</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1773,16 +1411,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.stabilize</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1366</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1394</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>You can manually call stabilize at any time.
-										All the stabilization options above are used.
-									You can optionally supply the number of iterations it should do.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1804,16 +1435,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.startSimulation</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1350</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1378</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Start the physics simulation.
-										This is normally done whenever needed and is only really useful
-									if you stop the simulation yourself and wish to continue it afterwards.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1829,16 +1453,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.stopSimulation</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1357</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1385</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>This stops the physics simulation and triggers a stabilized event.
-										Tt can be restarted by dragging a node,
-									altering the dataset or calling startSimulation().</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1854,23 +1471,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.storePositions</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1311</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1339</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<pre><code>When <span class="hljs-keyword">using</span> <span class="hljs-keyword">the</span> vis.DataSet <span class="hljs-built_in">to</span> <span class="hljs-built_in">load</span> your nodes <span class="hljs-keyword">into</span> <span class="hljs-keyword">the</span> network,
-</code></pre><p>this method will put the X and Y positions of all nodes into that dataset.
-										If you&#39;re loading your nodes from a database and have this dynamically coupled with the DataSet,
-										you can use this to stablize your network once, then save the positions in that database
-									through the DataSet so the next time you load the nodes, stabilization will be near instantaneous.</p>
-								</div>
-								<p>If the nodes are still moving and you&#39;re using dynamic smooth edges (which is on by default),
-								you can use the option stabilization.onlyDynamicEdges in the physics module to improve initialization time.</p>
-								<p>This method does not support clustering.
-									At the moment it is not possible to cache positions when using clusters since
-								they cannot be correctly initialized from just the positions.</p>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1886,15 +1489,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.unselectAll</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1429</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1457</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Unselect all objects.
-									Does not fire events.</p>
-								</div>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -1910,15 +1507,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.updateClusteredNode</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1205</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1233</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Clustered Nodes when created are not contained in the original data.nodes
-									passed on network creation. This method updates the cluster node.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1943,18 +1534,9 @@
 							<aside class="tsd-sources">
 								<p>Inherited from Network.updateEdge</p>
 								<ul>
-									<li>Defined in F:/InteractiveGraph/node_modules/@types/vis/index.d.ts:1199</li>
+									<li>Defined in /Users/barrychen/Sites/github/InteractiveGraph/node_modules/@types/vis/index.d.ts:1227</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Visible edges between clustered nodes are not the same edge as the ones provided
-										in data.edges passed on network creation. With each layer of clustering, copies of
-										the edges between clusters are created and the previous edges are hidden,
-										until the cluster is opened. This method takes an edgeId (ie. a base edgeId from data.edges)
-									and applys the options to it and any edges that were created from it while clustering.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -2041,6 +1623,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="graphnetwork.html#getbaseedge" class="tsd-kind-icon">get<wbr>Base<wbr>Edge</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="graphnetwork.html#getbaseedges" class="tsd-kind-icon">get<wbr>Base<wbr>Edges</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="graphnetwork.html#getboundingbox" class="tsd-kind-icon">get<wbr>Bounding<wbr>Box</a>

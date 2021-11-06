@@ -10,7 +10,7 @@ exports.RemoteGraph = require("../build/obj/service/remote").RemoteGraph;
 exports.i18n = require("../build/obj/messages").i18n;
 exports.Themes = require("../build/obj/theme").Themes;
 
-/*
+
 exports.ExpansionCtrl = require("../build/obj/control/ExpansionCtrl").ExpansionCtrl;
 exports.HighlightNodeCtrl = require("../build/obj/control/HighlightCtrl").HighlightCtrl;
 exports.InfoBoxCtrl = require("../build/obj/control/InfoBoxCtrl").InfoBoxCtrl;
@@ -18,7 +18,7 @@ exports.MessageBoxCtrl = require("../build/obj/control/MessageBoxCtrl").MessageB
 exports.RelFinderCtrl = require("../build/obj/control/RelFinderCtrl").RelFinderCtrl;
 exports.SearchBoxCtrl = require("../build/obj/control/SearchBoxCtrl").SearchBarCtrl;
 exports.ToolbarCtrl = require("../build/obj/control/ToolbarCtrl").ToolbarCtrl;
-*/
+
 
 var utils = require("../build/obj/utils");
 exports.Utils = utils.Utils;

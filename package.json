@@ -60,5 +60,8 @@
     "typedoc": "^0.11.1",
     "typescript": "^2.9.2",
     "webpack": "^3.12.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }
